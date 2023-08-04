@@ -1,0 +1,9 @@
+.container-fluid{
+	padding: 2% 15%;
+}
+nav ul li{
+	display: inline;
+}
+.stat{
+	color: white;
+}
