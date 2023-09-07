@@ -19,8 +19,8 @@ require('LOGIN.php');
 <body>
 <section class="bg-success">
 
-	<div class="container-fluid">
-		<nav class="navbar navbar-expand-lg bg-success navbar-dark">
+	<div class="container-fluid bg-dark">
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 			<a class="navbar-brand" href="index.php"><p style="font-size: 35px; padding: 0% 15%; font-family: 'Ubuntu', sans-serif;"><strong> Aggarwal Grocery </strong></p></a>
 			<button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@ require('LOGIN.php');
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active "><form class="form-inline" method="POST" action="search.php">
 					    <input class="form-control mr-sm-2" name="search" placeholder="Search" aria-label="Search">
-					    <button class="btn btn-light  my-2 my-sm-0" type="submit" name="Search_bar" style="color: #28A745;">Search</button>
+					    <button class="btn btn-light text-dark  my-2 my-sm-0" type="submit" name="Search_bar">Search</button>
 					</form></li>
 					<li class="nav-item active ">
 						<a class="nav-link" href="index.php">Home</a>
@@ -51,7 +51,7 @@ require('LOGIN.php');
 					}
 					?>
 					<li class="nav-item active ">
-						<a class="nav-link" href="cart.php"><img src="images/cart.png" width="20px" height="20px"><span class="badge badge-success"><?php echo $count;?></span></a>
+						<a class="nav-link" href="cart.php"><img src="images/cart.png" width="20px" height="20px"><span class="badge badge-light"><?php echo $count;?></span></a>
 					</li><?php
 					if(isset($_SESSION['Email'])){
 						$name = $_SESSION['fname'];?>

@@ -59,7 +59,7 @@ if(isset($_POST['Contact_us'])){
 }
 ?>
 <footer style="margin-top: 10%; width: auto; height: auto;">
-			<div class="container-fluid bg-success ">
+			<div class="container-fluid bg-dark ">
 				<div class="row">
 					<div class="col-md-6 col-lg-6 col-sm-6 col-xl-6" style="padding: 0% 4%;">
 						<form class="form-group"   method="POST">
@@ -95,23 +95,23 @@ if(isset($_POST['Contact_us'])){
 							<div class="card " style="padding: 0% 5%;">
 								<div class="row" style="margin-top: 20px;">
 									<div class="col-md-6 col-lg-6 col-xl-6 col-sm-6" style="padding: 0% 4%;">
-										<label class="text-success" style="font-family: ubuntu"><strong>Full Name</strong></label>
+										<label class="text-dark" style="font-family: ubuntu"><strong>Full Name</strong></label>
 										<input type="text" class="form-control shadow-sm p-3 mb-5 bg-white rounded" name="Fu_name" placeholder="Full Name">
 									</div>
 									<div class="col-md-6 col-lg-6 col-sm-6 col-xl-6" style="padding: 0% 4%">
-										<label class="text-success"style="font-family: ubuntu"><strong>Email</strong></label>
+										<label class="text-dark"style="font-family: ubuntu"><strong>Email</strong></label>
 										<input type="text"name="ConEMAIL" class="form-control shadow-sm p-3 mb-5 bg-white rounded"  placeholder="Enter Email">
 									</div>
 								</div>
 								<div class="row">	
 									<div class="col-md-12 col-lg-12 col-xl-12 col-sm-12" style="padding: 0% 4%;">
-										<label class="text-success"style="font-family: ubuntu"><strong>Comments:</strong></label>
+										<label class="text-dark"style="font-family: ubuntu"><strong>Comments:</strong></label>
 										<input type="text" class="form-control shadow-sm p-3 mb-5 bg-white rounded " name="Com_ments" placeholder="Enter Your Suggestions & Queries">
 									</div>
 								</div>
 								<div class="row" style="margin-bottom: 20px;">
 									<div class=" col-md-12 col-sm-12 col-xl-12 col-lg-12">
-										<center><button type="Submit" name="Contact_us" class="btn btn-success" style="text-align: center;font-family: ubuntu"><strong>Submit</strong></button></center>
+										<center><button type="Submit" name="Contact_us" class="btn btn-dark" style="text-align: center;font-family: ubuntu"><strong>Submit</strong></button></center>
 									</div>
 								</div>
 							</div>

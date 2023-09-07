@@ -108,9 +108,9 @@ if(isset($_POST['SignUp']))
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 <body>
-	<section class="bg-success">
+	<section class="bg-dark">
 	<div class="container-fluid">
-		<nav class="navbar navbar-expand-lg bg-success navbar-dark">
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 			<a class="navbar-brand" href="index.php"><p style="font-size: 35px; padding: 0% 15%;"> Aggarwal Grocery</p></a>
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item"><a href="SignIn.php" class="nav-link" style="color: white; font-size: 20px;">Login</a></li>
@@ -238,8 +238,8 @@ if(isset($_POST['SignUp']))
 			</section>
 		</div>
 		<center class="shadow-sm p-3 mb-5 bg-white rounded">
-			<button class="btn  btn-success " name = "SignUp" >Submit</button>
-			<button type="reset" class="btn   btn-outline-success "  >Reset</button>
+			<button class="btn  btn-dark " name = "SignUp" >Submit</button>
+			<button type="reset" class="btn   btn-outline-dark "  >Reset</button>
 		</center>
 	</div>		
 </form><br><br>

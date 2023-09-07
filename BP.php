@@ -33,7 +33,7 @@ if(isset($_POST['Add_To_Cart'])){
 	}
 }
 ?>
-<h3 style="font-family: ubuntu; text-align: center; margin-top: 2%;" class="text-success"><strong>Best Deals</strong></h3>
+<h3 style="font-family: ubuntu; text-align: center; margin-top: 2%;" class="text-dark"><strong>Best Deals</strong></h3>
 <?php
 $query = "SELECT * FROM categories_1 ";
 $res = mysqli_query($conn,$query);?>
@@ -62,7 +62,7 @@ while($row=mysqli_fetch_assoc($res)){
 								<option value="3">3</option>
 								<option value="4">4</option>
 							</select></p>
-							<button type="submit" name="Add_To_Cart" class="btn btn-success btn-block"  >Add to cart</button>
+							<button type="submit" name="Add_To_Cart" class="btn btn-dark btn-block"  >Add to cart</button>
 							<input type="hidden" name="product_id" value="<?php echo $row1['id'];?>">
 							<input type="hidden" name="product_price" value="<?php echo $row1['price'];?>">
 						</div>

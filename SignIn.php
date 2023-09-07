@@ -25,7 +25,7 @@ else{
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
-<body class="bg-success">
+<body class="bg-dark">
 	<p class="" style="font-size: 40px;  padding: 6% 38%; "><a class="nav-link" style="color: white; font-family: ubuntu;" href="index.php"><strong> Aggarwal Grocery</strong></a></p>
 	<div class="row">
 			

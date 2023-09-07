@@ -54,7 +54,7 @@ $dis=0;
 									<td>
 										<form  method="POST" action="manage_cart.php">
 											<input type="hidden" name="main_id" value="<?php echo $row['id']; ?>">
-											<button name="Remove" class="btn btn-success btn-sm"><img src="images/bin.png"  height="20px" width="auto"></button>
+											<button name="Remove" class="btn btn-dark btn-sm"><img src="images/bin.png"  height="20px" width="auto"></button>
 											
 										</form>
 									</td>
@@ -85,7 +85,7 @@ $dis=0;
 					<option>Debit/Credit Card</option>
 					<option>PayTM</option>
 				</select><br><br>
-				<button type="submit" name="check" class="btn btn-success btn-block" style="margin-bottom:10%;">Place your Order</button>
+				<button type="submit" name="check" class="btn btn-dark btn-block" style="margin-bottom:10%;">Place your Order</button>
 			</form>
 		</div>	
 	</div>

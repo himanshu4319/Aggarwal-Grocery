@@ -5,13 +5,17 @@ $cat='';
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100 h-100" src="images/Banner_1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100 h-100" src="images/Banner_2.png" alt="Second slide">
+      <img class="d-block w-100 h-100" src="images/Banner_2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 h-100" src="images/Banner_3.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -30,7 +34,7 @@ while($col=mysqli_fetch_array($result)){
 	$cat = $col['categories'];?>
 	<div class="row" style="padding: 1% 0%">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 " style="text-align: center;">
-			<label style=" font-size: 30px; font-family: ubuntu" class="text-success"><strong><?php echo $cat; ?></strong></label>
+			<label style=" font-size: 30px; font-family: ubuntu" class="text-dark"><strong><?php echo $cat; ?></strong></label>
 		</div>
 	</div>	
 	<?php $disp_1 = "SELECT * FROM product WHERE Categories_id = '$cat' order by brand asc";
@@ -53,7 +57,7 @@ while($col=mysqli_fetch_array($result)){
 								<option value="3">3</option>
 								<option value="4">4</option>
 							</select></p>
-							<button type="submit" name="Add_To_Cart" class="btn btn-success btn-block"  >Add to cart</button>
+							<button type="submit" name="Add_To_Cart" class="btn btn-dark btn-block"  >Add to cart</button>
 							<input type="hidden" name="product_id" value="<?php echo $row_7['id'];?>">
 							<input type="hidden" name="product_price" value="<?php echo $row_7['price'];?>">
 						</div>

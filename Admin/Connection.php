@@ -4,13 +4,13 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "ag";
+$dbname = "grocery";
 
 
 
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn=mysqli_connect($servername,$username,$password,$dbname);
 // Check connection
 if ($conn) {
 	//echo "Database Connected";

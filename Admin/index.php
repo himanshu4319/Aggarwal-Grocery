@@ -8,7 +8,7 @@ if(isset($_GET['type']) && $_GET['type'] != ""){
 		if($operation=='Accepted'){
 			$status='1';
 		}
-		$query3 = "UPDATE orders SET Status='$status' where `S.no` ='$id1'";
+		$query3 = "UPDATE orders SET Status='$status' where `ID` ='$id1'";
 		mysqli_query($conn , $query3);
 	}
 }
@@ -61,7 +61,7 @@ $res = mysqli_query($conn,$query);
 				<td style="text-align: center;"><?php echo $row['Payment_Status'];?></td>
 				<td style="text-align: center;"><?php $sta = $row['Status'];
 				if($sta == 0){
-					echo  "<button class='btn btn-danger '><a href='?type=Status&operation=Accepted&id=".$row['S.no']."' style='color: white;'>Pending</a></button>&nbsp;";
+					echo  "<button class='btn btn-danger '><a href='?type=Status&operation=Accepted&id=".$row['ID']."' style='color: white;'>Pending</a></button>&nbsp;";
 				}
 				else{
 					echo "<label class='btn btn-success'>Accepted</label>";
